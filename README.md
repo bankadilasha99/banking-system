@@ -1,14 +1,19 @@
 # banking-system
 #a small responsive banking system project.. 
-def bank():                   #function
-    while True:               #to run infinite times
+  #function
+  
+def bank():                
+
+    while True:          #to run infinite times
+    
         print('1.new customer')
         print('2.existing customer')
         print('3.exit')
         "-----------------------------------"
-        option=int(input('Enter choice:'))        #input by a user.
-
-        if option==1:                            
+        
+        option=int(input('Enter choice:'))
+       
+       if option==1:                            
             account=int(input('Enter your account number:'))
             name=input('Enter your name:')
             address=input('Enter your address:')
